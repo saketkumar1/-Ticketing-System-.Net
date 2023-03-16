@@ -7,6 +7,7 @@ public class Role
         [Key]
         public int roleId { get; set; }
 
+        [Required]
         public String name { get; set; }
 
         [JsonIgnore]
