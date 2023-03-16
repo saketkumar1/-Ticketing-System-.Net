@@ -8,10 +8,15 @@ public class User
     [Key]
     public int userId { get; set; }
 
+    [Required]
+    [DataType(DataType.EmailAddress)]
     public String email { get; set; }
 
+    [Required]
+    [DataType(DataType.Password)]
     public String password { get; set; }
 
+    [Required]
     public String name { get; set; }
 
     public String designation { get; set; }

@@ -7,6 +7,7 @@ public class Label{
 
     public int labelId { get; set; }
 
+    [Required]
     public String name { get; set; }
 
     [JsonIgnore]

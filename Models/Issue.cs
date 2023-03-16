@@ -18,8 +18,10 @@ public class Issue
 
     public String Type { get; set; }
 
+    [DataType(DataType.Date)]
     public DateTime createDate { get; set; }
 
+    [DataType(DataType.Date)]
     public DateTime updateDate { get; set; }
 
     [JsonIgnore]
